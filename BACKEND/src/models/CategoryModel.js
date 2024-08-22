@@ -13,7 +13,7 @@ let CategoryModel = connection.define("Category", {
     use_in_menu: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
-        defaultValue: 0
+        defaultValue: false
     }
 });
 

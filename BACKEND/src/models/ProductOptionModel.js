@@ -31,7 +31,7 @@ const ProductOptionModel = connection.define("ProductOption", {
     radius: {
         type: DataTypes.STRING,
         allowNull: true,
-        defaultValue: 0
+        defaultValue: false
     },
     type: {
         type: DataTypes.ENUM('text', 'color'),

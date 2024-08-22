@@ -16,7 +16,7 @@ const ImageModel = connection.define("Image", {
     enabled: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
-        defaultValue: 0
+        defaultValue: false
     },
     path: DataTypes.STRING(255)
 });

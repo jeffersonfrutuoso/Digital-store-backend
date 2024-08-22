@@ -24,7 +24,7 @@ const ProductModel = connection.define("Product", {
     },
     use_in_menu:{
         type: DataTypes.BOOLEAN(255),
-        defaultValue: 0
+        defaultValue: false
     },
     price: {
         type: DataTypes.DECIMAL(5,2),
@@ -34,7 +34,7 @@ const ProductModel = connection.define("Product", {
     enabled: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
-        defaultValue: 0
+        defaultValue: false
     },
     stock: {
         type: DataTypes.INTEGER,
