@@ -40,7 +40,7 @@ PrivateRoutes.delete('/category/:id', CategoryController.delete);
 
 app.use(PrivateRoutes);
 
-app.listen(3000);
+app.listen(10000);
 
 
 
